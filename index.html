@@ -2,9 +2,21 @@
 <html>
     <head>
         <title>Game thing</title>
+        <style>
+            #screen {border:1px solid #000000;}
+            #gameholder {
+                display: flex;
+                justify-content: center;
+                margin: 20px auto;
+            }
+            p {color:white;}
+            body {background-color:black;}
+        </style>
     </head>
     <body>
         <p>this is the game site ig</p>
-        <canvas id="screen" width="200" height="100" style="border:1px solid #000000;"></canvas>
+        <div id="gameholder">
+            <canvas id="screen" width="800" height="600"></canvas>
+        </div>
     </body>
 </html>
