@@ -34,3 +34,4 @@ function tick() {
     
     requestAnimationFrame(update);
 }
+update();
