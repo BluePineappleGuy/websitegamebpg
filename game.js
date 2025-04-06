@@ -32,6 +32,6 @@ function tick() {
     ctx.fillRect(player.x, player.y, 50, 50);
 
     
-    requestAnimationFrame(update);
+    requestAnimationFrame(tick);
 }
-update();
+tick();
